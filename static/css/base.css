@@ -5,6 +5,14 @@
     padding: 0;
 }
 
+/* Navigation Bar Styles*/
+
+.head {
+    border-bottom: 1px solid black;
+}
+
+/* Index.html Styles */
+
 .home-block {
     background-color: rgb(207, 207, 245);
     border: 1px solid black;
@@ -19,3 +27,4 @@
 .store-btn:hover {
     transform: scale(1.2);
 }
+
