@@ -14,7 +14,10 @@ To start this project, I first instelled Django and Django allauth. Then created
 
 <a href="build"></a>
 # Bulid
-There are several different app within the project. This was done to help keep the code from getting too cluttered and by keeping things in seperate apps depending on that they are being used for enabled me to find and solve any problems much easier.
+There are several different app within the project. This was done to help keep the code from getting too cluttered and by keeping things in seperate apps depending on that they are being used for enabled me to find and solve any problems much easier. There is a file in the top level called templates, this is where the allauth templates are stored and where the project base.html file is stored. This file contains all of the content that needs to be spread across all of the webpages. This includes both the navigation bar and the footer.
+The first app created was the home app. This is where all of the homepage content is stored. For the homepage there is a container with a small description enticing customers to click the shop now button that will take them to the store page.  
+The navigation bar contains, the website name, categories, store, user's account and settings. User basked cost and a search bar for users to search for various items.  
+<img src="./media/readme/homepage-1.png" alt="First view of homepage">
 
 <a href="installations"></a>
 # Installations
