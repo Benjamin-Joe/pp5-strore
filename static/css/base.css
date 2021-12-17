@@ -11,6 +11,17 @@
     border-bottom: 1px solid black;
 }
 
+/* Footer Bar Styles */
+
+.created-by {
+    display: block;
+}
+
+.foot-box {
+    border-top: 1px solid black;
+}
+
+
 /* Index.html Styles */
 
 .home-block {

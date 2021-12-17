@@ -1,7 +1,7 @@
 {% load static %}
 
 <!doctype html>
-<html lang="en">
+<html lang="en" class="h-100">
   <head>
 
     {% block meta %}
@@ -25,7 +25,6 @@
     <title>Klarart {% block title %}{% endblock %}</title>
   </head>
   <body>
-
     
     <header class="container-fluid fixed-top head">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -47,7 +46,6 @@
                   <a class="dropdown-item" href="">Insert Categoires</a>
                 </div>
               </li>
-
               <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Account
@@ -96,6 +94,37 @@
     {% block content %}
     {% endblock %}
 
+          <!-- Website Footer  -->
+
+    <footer class="text-center text-light foot-box" style="background-color: #f1f1f1;">
+      <div class="container">
+        <section class="mb-4">
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="#!"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="#!"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a
+            class="btn btn-link btn-floating btn-lg text-dark m-1"
+            href="#!"
+            role="button"
+            data-mdb-ripple-color="dark"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a class="text-dark created-by" target="_blank" href="https://github.com/">Content By: Benjamin Joe</a>
+        </section>
+      </div>
+
+    </footer>
 
   </body>
 </html>
