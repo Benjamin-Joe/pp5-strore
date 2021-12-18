@@ -26,3 +26,7 @@ In order to complete this project, quite a few imports were needed, they are all
 [Django](https://docs.djangoproject.com/en/4.0/)  
 [Allauth](https://django-allauth.readthedocs.io/en/latest/installation.html)  
 
+
+
+Photo by <a href="https://unsplash.com/@keithmisner?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Keith Misner</a> on <a href="https://unsplash.com/s/photos/background?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
