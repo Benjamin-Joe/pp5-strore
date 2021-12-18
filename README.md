@@ -31,6 +31,10 @@ In order to complete this project, quite a few imports were needed, they are all
 
 <a href="marketing"></a>
 # Marketing
+The type of clients that this website is aimed at is middle aged women for the most part. This is due to testing. My partner, the artist behind the designs hosted a number of art galleries this year and the majority of customers who purchased items were middle aged women, and also middle aged men buying gifts for their wifes/partners. So in order to best market these products to our clientele we created a business page on facebook, as a lot of the people who purchased items also inquired if our company was on Facebook. We do also have an instagram as it is a great way to advertise to a younger audience. Both links to facebook and instagram are in the footer of this website. Just  incase the facebook business page is no longer valid below are some images of the facbook business page. Another marketing strategy we are using is offering a monthly email keeping our customers up to date with all new items and deals. This too is located in the footer of the website. It only requires an email address to sign up so it is very quick and easy. The final marketing thing we intend to employ is prizes and giveaways. We want to reward customers for their purchases so we intend to imploment discounts and prizes to lucky customers. 
+    <img src="./media/readme/fb-2.png" alt="Facebook business image">
+    <img src="./media/readme/fb-1.png" alt="Facebook business image">  
+
 
 
 
