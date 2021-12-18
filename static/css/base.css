@@ -21,6 +21,18 @@ html {
     border-top: 1px solid black;
 }
 
+#mc_embed_signup {
+    border: 1px solid black;
+    color: black;
+    width: 60%;
+    display: block;
+    margin: auto;
+    background-color: rgb(149, 149, 190);
+}
+
+.mail-img {
+    width: 100%;
+}
 
 /* Index.html Styles */
 

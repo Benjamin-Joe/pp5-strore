@@ -5,6 +5,7 @@
 1. [Setup](#setup)
 2. [Build](#build)
 3. [Installations](#installations)
+4. [Marketing](#marketing)
 
 <a href="setup"></a>
 # Setup
@@ -25,6 +26,11 @@ In order to complete this project, quite a few imports were needed, they are all
 [Python](https://www.python.org/)  
 [Django](https://docs.djangoproject.com/en/4.0/)  
 [Allauth](https://django-allauth.readthedocs.io/en/latest/installation.html)  
+[Pillow](https://pillow.readthedocs.io/en/stable/)
+
+
+<a href="marketing"></a>
+# Marketing
 
 
 
