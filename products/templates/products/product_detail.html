@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block content %}
+
+
+<br>
+<br>
+<a href="{{ product.image.url }}" target="_blank">
+<img src="{{ product.image.url }}" alt="">
+</a>
+
+{{ product.name }}
+{{ product.price }}
+{{ product.description }}
+
+{% endblock %}
