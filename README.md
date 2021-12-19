@@ -36,7 +36,7 @@ The type of clients that this website is aimed at is middle aged women for the m
     <img src="./media/readme/fb-1.png" alt="Facebook business image">  
 
 
-
+https://tinypng.com/
 
 Photo by <a href="https://unsplash.com/@keithmisner?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Keith Misner</a> on <a href="https://unsplash.com/s/photos/background?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
