@@ -6,7 +6,7 @@ from .models import Product, Category
 
 def Products(request):
     """
-    View to render products 
+    View to render products
     """
     products = Product.objects.all()
     query = None
@@ -17,16 +17,16 @@ def Products(request):
             categories = request.GET['category'].split(',')
             products = products.filter(category__name__in=categories)
             categories = Category.objects.filter(name__in=categories)
-       
+
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
                 messages.error(request, "You Did Not Search For Anything!")
                 return redirect(reverse('products'))
-            
+
             queries = Q(name__icontains=query) | Q(description__icontains=query) | Q(price__icontains=query)
-            products = products.filter(queries) 
-    
+            products = products.filter(queries)
+
     context = {
         'products': products,
         'search_term': query,
@@ -44,4 +44,3 @@ def Product_Detail(request, product_id):
         'product': product,
     }
     return render(request, 'products/product_detail.html', context)
-

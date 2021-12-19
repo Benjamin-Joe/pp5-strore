@@ -23,7 +23,12 @@ The first app created was the home app. This is where all of the homepage conten
 The navigation bar contains, the website name, categories, store, user's account and settings. User basket cost and a search bar for users to search for various items.  
 <img src="./media/readme/homepage-1.png" alt="First view of homepage">  
 The footer for this website contains no surprises, it is where all of the social media links are located. It also contains the mailchimp monthly email sign up box.
-<img src="./media/readme/footer.png" alt="Image of footer">
+<img src="./media/readme/footer.png" alt="Image of footer">  
+For the majority of the initial build, I followed the boutique ado walkthrough with Code Institute, This helped me to keep on trach with what needed to be done in order to get this site working. After the footer, I built out the products page, This page contains all of the products available to purchase on the website.
+<img src="./media/readme/products-1.png" alt="Image of all products for sale">  
+After creating the products page, I created the product detail page. This allows users to see products they like in more detail, it also gives them the ability to purchase the item.
+<img src="./media/readme/product-detail.png" alt="Image of single product detail">  
+
 
 
 <a href="installations"></a>
@@ -48,6 +53,7 @@ Many different forms of tests were needed to create this website. I made extensi
 
 <a href="userstories"></a>
 # User Stories
+User stories was a very important side to this project as it helps me to keep on track with what is needed for users and administrators to use the site successfully. Below is an image of user stories needed for the completion of this project.
 
 <a href="sources"></a>
 # Sources
