@@ -19,6 +19,7 @@ html {
 
 .foot-box {
     border-top: 1px solid black;
+    margin-top: 15px;
 }
 
 #mc_embed_signup {
@@ -51,4 +52,13 @@ html {
 .store-btn:hover {
     transform: scale(1.2);
 }
+
+.handmade-img {
+    width: 80%;
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+    height: 80%;
+}
+
 
