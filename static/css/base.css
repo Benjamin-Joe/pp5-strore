@@ -70,3 +70,28 @@ html {
 }
 
 
+/* Products Page Styles --------------------- */
+
+.products {
+    text-decoration: none;
+    color: black;
+}
+
+.products:hover {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.btt-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.btt-link {
+    cursor: pointer;
+}
+
