@@ -54,6 +54,24 @@
 
                 </div>
               </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Sort By
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                  <a class="dropdown-item" href="{% url 'products' %}?sort=price&direction=asc">Price (Low To High)</a>
+                  <a class="dropdown-item" href="{% url 'products' %}?sort=price&direction=desc">Price (High To Low)</a>
+
+                  <a class="dropdown-item" href="{% url 'products' %}?sort=rating&direction=desc">Rating (High To Low)</a>
+                  <a class="dropdown-item" href="{% url 'products' %}?sort=rating&direction=asc">Rating (Low To High)</a>
+
+
+                </div>
+              </li>
+
+
               <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Account
