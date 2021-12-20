@@ -2,6 +2,14 @@
 {% load static %}
 
 {% block content %}
-<h1>working!!</h1>
-
+<br>
+<br>
+<br>
+<br>
+{% if items_in_bag %}
+<div></div>
+{% else %}
+<p>No items yet. Get Shopping!</p>
+<a href="{% url 'products' %}">Back To Shop</a>
+{% endif %}
 {% endblock %}
