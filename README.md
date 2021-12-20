@@ -9,6 +9,7 @@
 5. [Testing](#testing)
 6. [User Stories](#userstories)
 7. [Sources](#sources)
+8. [Deployment](#deployment)
 
 <a href="setup"></a>
 # Setup
@@ -28,8 +29,8 @@ For the majority of the initial build, I followed the boutique ado walkthrough w
 <img src="./media/readme/products-1.png" alt="Image of all products for sale">  
 After creating the products page, I created the product detail page. This allows users to see products they like in more detail, it also gives them the ability to purchase the item.
 <img src="./media/readme/product-detail.png" alt="Image of single product detail">  
-
-
+The navigation bar then got an upgrade. Users now have the ability to filter products by price and rating
+<img src="./media/readme/nav-2.png" alt="Image of sort by dropdown menu">  
 
 <a href="installations"></a>
 # Installations
@@ -57,9 +58,16 @@ User stories was a very important side to this project as it helps me to keep on
 
 <a href="sources"></a>
 # Sources
-In completing this site I used a variety of sources and guides to help me. The main one I used was Code Institute's boutique ado project walkthrough. This proved very handy in guiding me through this project. A fair amount of the code came from this walkthrough, however I did change and edit things to make them mine. Another valuable source was W3, it was incredibly helpful with bug fixing and just general how to style tips and tricks.
+In completing this site I used a variety of sources and guides to help me. The main one I used was Code Institute's boutique ado project walkthrough. This proved very handy in guiding me through this project. A fair amount of the code came from this walkthrough, however I did change and edit things to make them mine. Another valuable source was W3, it was incredibly helpful with bug fixing and just general how to style tips and tricks. Other things used were things like tinypng to shrink images, Stack overflow for tips on solving issues. Slack and a few others, all are linked below. Also any images that aren't my own are noted below
 
-https://tinypng.com/
+[W3](https://www.w3schools.com/)
+[Tinypng](https://tinypng.com/)
+[Stack-Overflow](https://stackoverflow.com/)
+[Unsplash](https://unsplash.com/)
 
-Photo by <a href="https://unsplash.com/@keithmisner?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Keith Misner</a> on <a href="https://unsplash.com/s/photos/background?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
+Photos by:  
+[Keith Misner](https://unsplash.com/@keithmisner?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+
+<a href="deployment"></a>
+# Deployment
