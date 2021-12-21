@@ -9,13 +9,13 @@ html {
     height: 100%;
 }
 
-/* Navigation Bar Styles*/
+/* Navigation Bar Styles ------------------- */
 
 .head {
     border-bottom: 1px solid black;
 }
 
-/* Footer Bar Styles */
+/* Footer Bar Styles ----------------------- */
 
 .foot-box {
     border-top: 1px solid black;
@@ -35,7 +35,7 @@ html {
     width: 100%;
 }
 
-/* Index.html Styles */
+/* Index.html Styles ------------------------- */
 
 .home-block {
     border: 1px solid black;
@@ -95,3 +95,28 @@ html {
     cursor: pointer;
 }
 
+
+/*Basket Page ------------------------ */
+
+.checkout-btn {
+    float: right;
+    transition: transform;
+}
+
+.checkout-btn:hover {
+    transform: scale(1.2);
+}
+
+.back-store {
+    transition: transform;
+}
+
+.back-store:hover {
+    transform: scale(1.2);
+}
+
+
+.total {
+    text-align: center;
+    font-weight: bolder;
+}
