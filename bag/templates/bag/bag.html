@@ -4,12 +4,35 @@
 {% block content %}
 <br>
 <br>
-<br>
-<br>
-{% if items_in_bag %}
-<div></div>
-{% else %}
-<p>No items yet. Get Shopping!</p>
-<a href="{% url 'products' %}">Back To Shop</a>
-{% endif %}
+
+        <div class="row">
+            <div class="col">
+                {% if bag_items %}
+
+                   {% for item in bag_items %}
+                   {{ item.product.name }}
+                   ${{ item.product.price }}
+                   {{ item.quantity }}
+                   ${{ item.product.price }}
+                    {% endfor %}
+                    Bag Total: ${{ total|floatformat:2 }}
+                    <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
+                    <span class="icon">
+                    <i class="fas fa-chevron-left"></i>
+                    </span>
+                    <span class="text-uppercase">Keep Shopping</span>
+                    </a>
+                    </div>
+                {% else %}
+                    <p class="lead mb-5">Your bag is empty.</p>
+                    <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 btn-lg">
+                        <span class="icon">
+                            <i class="fas fa-chevron-left"></i>
+                        </span>
+                        <span class="text-uppercase">Keep Shopping</span>
+                    </a>
+                {% endif %}
+            </div>
+        </div>
+
 {% endblock %}

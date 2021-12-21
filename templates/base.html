@@ -88,8 +88,8 @@
               <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
             <a href="{% url 'bag' %}" class="pl-2" type="button" role="button">
-              {% if grand_total %}
-                £{{grand_total|floatformat:2}}
+              {% if total %}
+                £{{total|floatformat:2}}
               {% else %}
                 £0.00
               {% endif %}
