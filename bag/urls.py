@@ -5,5 +5,5 @@ from . import views
 urlpatterns = [
     path('bag/', views.bag, name='bag'),
     path('add/<item_id>/', views.add_to_bag, name='add_to_bag'),
-
+    path('edit/<item_id>/', views.adjust_bag, name='adjust_bag'),
 ]
