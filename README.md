@@ -38,7 +38,8 @@ In order to complete this project, quite a few imports were needed, they are all
 [Python](https://www.python.org/)  
 [Django](https://docs.djangoproject.com/en/4.0/)  
 [Allauth](https://django-allauth.readthedocs.io/en/latest/installation.html)  
-[Pillow](https://pillow.readthedocs.io/en/stable/)
+[Pillow](https://pillow.readthedocs.io/en/stable/)  
+[Crispy-forms](https://django-crispy-forms.readthedocs.io/en/latest/)  
 
 
 <a href="marketing"></a>
