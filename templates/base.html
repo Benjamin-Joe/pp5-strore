@@ -28,7 +28,7 @@
   </head>
   <body>
     
-    <header class="container-fluid fixed-top head">
+    <header class=" fixed-top head">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <a class="navbar-brand" href="{% url 'home' %}">Klarart</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -100,6 +100,7 @@
           </div>
         </nav>
   </header>
+  <div class="background-image-main">
 
     {% if messages %}
     <div class="message-container"></div>
@@ -162,6 +163,8 @@
         </section>
       </div>
     </footer>
+
+  </div>
     {% block extrajs %}
     <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
     <script type='text/javascript'>

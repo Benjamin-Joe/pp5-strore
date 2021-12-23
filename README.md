@@ -67,7 +67,8 @@ In completing this site I used a variety of sources and guides to help me. The m
 
 Photos by:  
 [Keith Misner](https://unsplash.com/@keithmisner?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-
+Image by SK from Pixabay 
+Image by analogicus from Pixabay 
 
 <a href="deployment"></a>
 # Deployment
