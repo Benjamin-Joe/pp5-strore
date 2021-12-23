@@ -106,6 +106,27 @@ html {
     cursor: pointer;
 }
 
+.product-display {
+    border: 2px solid gray;
+    text-align: center;
+    align-items: center;
+    transition: transform;
+}
+
+.product-display:hover {
+    transform: scale(1.05);
+}
+
+.product-link {
+    text-decoration: none;
+    color: black;
+}
+
+
+.product-link:hover {
+    text-decoration: none;
+    color: black;
+}
 
 /*Basket Page ------------------------ */
 
