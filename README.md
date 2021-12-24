@@ -40,6 +40,7 @@ In order to complete this project, quite a few imports were needed, they are all
 [Allauth](https://django-allauth.readthedocs.io/en/latest/installation.html)  
 [Pillow](https://pillow.readthedocs.io/en/stable/)  
 [Crispy-forms](https://django-crispy-forms.readthedocs.io/en/latest/)  
+[Stripe](https://stripe.com/en-se)
 
 
 <a href="marketing"></a>
