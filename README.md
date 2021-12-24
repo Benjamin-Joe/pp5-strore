@@ -11,6 +11,9 @@
 7. [Sources](#sources)
 8. [Deployment](#deployment)
 
+# Note
+The project was not finished in time, I failed to complete adding stripe payments and I did not have a structure for password resets and various minor stylings on the website. Due to be fixed
+
 <a href="setup"></a>
 # Setup
 To setup this project I followed the Boutique-Ado walkthrough project with Code Institute. Since the whole project is to create an e commerce store, I user the code institute walkthrough as a guide. Having said that I have not copied the Boutique-Ado walkthrough, I have just followed it loosely to ensure I hit all requirements for a passing grade for PP5. Any code that I have taken from Boutique-Ado will be credited appropriately.
