@@ -12,7 +12,8 @@
 8. [Deployment](#deployment)
 
 # Note
-The project was not finished in time, I failed to complete adding stripe payments and I did not have a structure for password resets and various minor stylings on the website. Due to be fixed
+The project was not finished in time, I failed to complete adding stripe payments and I did not have a structure for password resets and various minor stylings on the website. Due to be fixed.
+Also had trouble with deployment, so the site is not properly deployed. I will try again to pass this project next time
 
 <a href="setup"></a>
 # Setup
